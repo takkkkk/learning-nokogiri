@@ -1,5 +1,5 @@
 # learning-nokogiri: Nokogiriの練習
-
+これはcommitの練習です。
 ## 始め方
 
 事前にVagrantにログインしておく。
