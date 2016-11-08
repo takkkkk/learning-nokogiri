@@ -7,11 +7,10 @@ require 'nokogiri'
 url = 'https://wiki.debian.org/DebianReleases'
 html = open(url).read
 
-#puts html
 doc = Nokogiri::HTML.parse(html)
-# pp doc
 
 tables = doc.xpath('//table')
+
 strongs = tables[0].xpath('.//strong')
 
 i = 0
